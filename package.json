@@ -1,5 +1,5 @@
 {
-  "name": "pi-psst",
+  "name": "@miclivs/pi-psst",
   "version": "0.1.0",
   "description": "Pi extension that injects psst vault secrets into bash and scrubs them from output",
   "keywords": [
