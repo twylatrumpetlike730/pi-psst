@@ -1,0 +1,24 @@
+{
+  "name": "pi-psst",
+  "version": "0.1.0",
+  "description": "Pi extension that injects psst vault secrets into bash and scrubs them from output",
+  "keywords": [
+    "pi-package"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Michaelliv/pi-psst"
+  },
+  "dependencies": {
+    "psst-cli": "^0.6.5"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  }
+}
